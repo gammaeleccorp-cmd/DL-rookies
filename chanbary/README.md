@@ -65,12 +65,4 @@ In this project, we track:
 2.  **Weight Distribution:** Monitoring the standard deviation of weights during training.
 3.  **Future Roadmap:**
     * [x] MLP Implementation
-    * [ ] CNN Architecture Support
-    * [ ] Batch Normalization Analysis
-
----
-
-## 🛠 Setup & Requirements
-To run this analysis, ensure you have the following environment:
-```bash
-pip install numpy matplotlib seaborn
+    * [ ] CNN Architecture Suppor
