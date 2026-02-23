@@ -1,13 +1,62 @@
-<section style="padding:40px; background:#111; color:#fff; text-align:center;">
-  <h1 style="font-size:36px; margin-bottom:20px;">
-    🚀 Project Progress Update
-  </h1>
-  <p style="font-size:22px; font-weight:bold;">
-    I've built the usurped candle model up to this point.
-  </p>
-  <p style="font-size:18px; margin-top:15px; opacity:0.8;">
-    In the next update, we’ll move on to a more in-depth analysis and evaluation.
-  </p>
+<section style="
+    padding: 60px 20px; 
+    background: radial-gradient(circle at center, #1a1a2e 0%, #0f0f1a 100%); 
+    color: #fff; 
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;">
+
+  <div style="
+      max-width: 700px; 
+      margin: 0 auto; 
+      padding: 50px; 
+      background: rgba(255, 255, 255, 0.03); 
+      backdrop-filter: blur(15px); 
+      border: 1px solid rgba(255, 255, 255, 0.1); 
+      border-radius: 30px; 
+      box-shadow: 0 25px 50px rgba(0,0,0,0.5), 0 0 20px rgba(0, 242, 255, 0.1);
+      position: relative;
+      transition: transform 0.3s ease;">
+    <div style="font-size: 50px; margin-bottom: 10px; filter: drop-shadow(0 0 10px #00f2ff);">
+        🧠
+    </div>
+    <h1 style="
+        font-size: 42px; 
+        margin-bottom: 25px; 
+        background: linear-gradient(90deg, #00f2ff, #0077ff); 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+        font-weight: 900;
+        letter-spacing: -1px;">
+      Project Progress Update
+    </h1>
+    <div style="
+        height: 4px; 
+        width: 100px; 
+        background: #00f2ff; 
+        margin: 0 auto 30px; 
+        border-radius: 2px;
+        box-shadow: 0 0 10px #00f2ff;"></div>
+
+   <p style="font-size: 24px; font-weight: 300; line-height: 1.6; color: #e0e0e0;">
+      So far, I have successfully implemented the <br>
+      <span style="color: #00f2ff; font-weight: bold; text-shadow: 0 0 8px rgba(0,242,255,0.5);">
+        MLP Neural Network Model
+      </span>
+    </p>
+    <p style="
+        font-size: 16px; 
+        margin-top: 30px; 
+        padding: 15px;
+        background: rgba(0, 119, 255, 0.1);
+        border-radius: 12px;
+        display: inline-block;
+        color: #aaa;
+        border: 1px dashed rgba(0, 242, 255, 0.3);">
+      🚀 Next Phase: <span style="color: #fff;">Analysis, Evaluation & Results</span>
+    </p>
+
+  </div>
 </section>
 
 <div align="center">
