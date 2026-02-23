@@ -1,0 +1,74 @@
+CLUSTERING ALGORITHMS SUMMARY
+=============================
+
+Algorithm       | Type     | Key Idea                          | Best For
+----------------|----------|-----------------------------------|-----------------------------
+K-means         | Hard     | Spherical clusters, min distances | Well-separated spherical
+GMM             | Soft     | Mixture of Gaussians             | Overlapping, probability
+DBSCAN          | Density  | Dense regions, sparse separation | Arbitrary shapes, noise
+Hierarchical    | Tree     | Build cluster tree               | Small data, relationships
+
+# Unlike K-Means (hard assignments), GMM gives probabilities
+labels = gmm.predict(X)                    # Hard assignments
+probabilities = gmm.predict_proba(X)       # Soft assignments [0-1]
+
+========================
+AIC (Akaike Information Criterion):
+text
+AIC = -2 * log_likelihood + 2 * number_of_parameters
+Penalizes complexity less than BIC
+
+Good for prediction accuracy
+
+Lower values are better
+========================
+BIC (Bayesian Information Criterion):
+text
+BIC = -2 * log_likelihood + log(n_samples) * number_of_parameters
+Penalizes complexity more than AIC
+
+Good for finding true model
+
+Lower values are better
+========================
+PREPROCESSING TECHNIQUES
+========================
+PCA  - Maximize variance, dimensionality reduction
+ICA  - Find independent sources, signal separation
+
+EVALUATION METRICS
+==================
+
+INTERNAL (No labels):
+- Silhouette Score: [-1,1] Higher=better (Cohesion vs separation)
+- Calinski-Harabasz: [0,∞] Higher=better (Variance ratio)
+- Davies-Bouldin: [0,∞] Lower=better (Cluster similarity)
+- Inertia: [0,∞] Lower=better (Within-cluster sum of squares)
+
+EXTERNAL (With labels):
+- Adjusted Rand Index: [-1,1] 1=perfect
+- Fowlkes-Mallows: [0,1] Higher=better
+- Homogeneity: [0,1] 1=perfect
+- Completeness: [0,1] 1=perfect
+- V-measure: [0,1] Harmonic mean
+
+GMM SPECIFIC:
+- AIC: Lower=better (With complexity penalty)
+- BIC: Lower=better (Stronger penalty)
+- Log-Likelihood: Higher=better
+
+QUICK DECISION GUIDE
+====================
+- Spherical clusters → K-means
+- Overlapping clusters → GMM
+- Arbitrary shapes + noise → DBSCAN
+- Small data + relationships → Hierarchical
+- Always preprocess with PCA
+- Use multiple metrics for evaluation
+
+IMPLEMENTATION SNIPPET
+======================
+from sklearn.metrics import *
+sil_score = silhouette_score(X, labels)
+ch_score = calinski_harabasz_score(X, labels)
+db_score = davies_bouldin_score(X, labels)
