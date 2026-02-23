@@ -1,3 +1,15 @@
+<section style="padding:40px; background:#111; color:#fff; text-align:center;">
+  <h1 style="font-size:36px; margin-bottom:20px;">
+    🚀 Project Progress Update
+  </h1>
+  <p style="font-size:22px; font-weight:bold;">
+    I've built the usurped candle model up to this point.
+  </p>
+  <p style="font-size:18px; margin-top:15px; opacity:0.8;">
+    In the next update, we’ll move on to a more in-depth analysis and evaluation.
+  </p>
+</section>
+
 <div align="center">
 
 # 🧠 Deep Gradient Dynamics Analysis
