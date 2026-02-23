@@ -3,7 +3,7 @@
 # 🧠 Deep Gradient Dynamics Analysis
 ### Investigating Vanishing & Exploding Gradients in Deep MLPs
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.13+-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/Implementation-Scratch-orange.svg?style=for-the-badge&logo=numpy)](https://numpy.org/)
 [![Status](https://img.shields.io/badge/Status-Research--In--Progress-green.svg?style=for-the-badge)]()
 
