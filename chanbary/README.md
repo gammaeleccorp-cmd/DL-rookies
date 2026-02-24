@@ -35,5 +35,4 @@ This analysis uses the **Brain Stroke CT Dataset** from Kaggle:
 
 
 # Visualization and comparison
-
-![](plot/Comparison_of_the_first_and_last_layer_norms.png)
+ 
