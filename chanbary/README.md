@@ -65,4 +65,4 @@ This analysis uses the **Brain Stroke CT Dataset** from Kaggle:
 [Brain Stroke CT Dataset](https://www.kaggle.com/datasets/ozguraslank/brain-stroke-ct-dataset)
 
 ![Brain CT Sample](https://cdn1.imaios.com/i/images/3/3/2/2/472233-1-eng-GB/brain-ct-axial.jpg?q=75&w=1280&s=610e28a70373ba71785af4f421f287de)
-![Brain CT Sample](chanbary/plot/Comparison_of_the_first_and_last_layer_norms.png)
+![Brain CT Sample](plot/Comparison_of_the_first_and_last_layer_norms.png)
