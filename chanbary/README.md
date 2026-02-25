@@ -1,4 +1,14 @@
 <div align="center">
+
+## 🚀 **View Full ML Analysis Dashboard**
+
+👉 **[Click Here for Interactive Dashboard](https://mlworks1.github.io/webproject.github.io/)**
+
+*Interactive insights, gradient histograms, and loss curves in real-time*
+
+</div>
+
+<div align="center">
   
 # 🧠 **DEEP GRADIENT DYNAMICS**
 ### VANISHING & EXPLODING GRADIENT ANALYZER
@@ -34,12 +44,4 @@ Analyzing the gradient norm ‖∇W‖₂ across:
 ## 🧠 Dataset
 This analysis uses the **Brain Stroke CT Dataset** from Kaggle to test real-world convergence.
 
-<div align="center">
 
-## 🚀 **View Full ML Analysis Dashboard**
-
-👉 **[Click Here for Interactive Dashboard](https://mlworks1.github.io/webproject.github.io/)**
-
-*Interactive insights, gradient histograms, and loss curves in real-time*
-
-</div>
