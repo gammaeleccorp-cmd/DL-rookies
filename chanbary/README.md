@@ -33,6 +33,32 @@ This analysis uses the **Brain Stroke CT Dataset** from Kaggle:
 [Brain Stroke CT Dataset](https://www.kaggle.com/datasets/ozguraslank/brain-stroke-ct-dataset)
 ![Brain CT Sample](https://cdn1.imaios.com/i/images/3/3/2/2/472233-1-eng-GB/brain-ct-axial.jpg?q=75&w=1280&s=610e28a70373ba71785af4f421f287de)
 
+<!-- ===== ML Dashboard Highlight Section ===== -->
+<div style="margin:40px 0; text-align:center;">
+    
+   <a href="https://mlworks1.github.io/webproject.github.io/" target="_blank"
+      style="
+           display:inline-block;
+           padding:18px 35px;
+           font-size:22px;
+           font-weight:bold;
+           text-decoration:none;
+           border-radius:12px;
+           background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+           color:#ffffff;
+           box-shadow:0 10px 25px rgba(0,0,0,0.35);
+           transition:all 0.3s ease;
+      "
+      onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.5)';"
+      onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.35)';">
+      
+      🚀 View Full ML Analysis Dashboard
+      
+   </a>
 
-# Visualization and comparison
- 
+   <p style="margin-top:12px; font-size:15px; color:#555;">
+       Interactive dashboard including full analysis, insights, and visual reports
+   </p>
+
+</div>
+<!-- ========================================== --> 
