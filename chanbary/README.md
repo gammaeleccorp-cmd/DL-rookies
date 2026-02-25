@@ -1,1 +1,45 @@
-<div style="background: #010409; color: #c9d1d9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 30px; border: 2px solid #1f6feb; border-radius: 20px; box-shadow: 0 0 50px rgba(31, 111, 235, 0.2);"><div style="text-align: center; border-bottom: 1px solid #30363d; padding-bottom: 20px; margin-bottom: 30px;"><h1 style="font-size: 3.5em; background: linear-gradient(to right, #58a6ff, #ffffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0; font-weight: 900;">🧠 DEEP GRADIENT DYNAMICS</h1><p style="letter-spacing: 5px; color: #8b949e; font-size: 1.2em; margin-top: 10px;">VANISHING & EXPLODING GRADIENT ANALYZER</p></div><div style="text-align: center; margin-bottom: 30px;"><img src="https://img.shields.io/badge/Python-3.13+-blue.svg?style=for-the-badge&logo=python" /><img src="https://img.shields.io/badge/Implementation-Scratch-orange.svg?style=for-the-badge&logo=numpy" /><img src="https://img.shields.io/badge/Status-Research--In--Progress-green.svg?style=for-the-badge" /></div><h2 style="color: #58a6ff; border-left: 5px solid #1f6feb; padding-left: 15px;">📝 Introduction</h2><p style="font-size: 1.1em; line-height: 1.8; color: #d1d5da;">This repository contains an <strong>engineering-grade empirical analysis</strong> of Gradient Flow within deep neural architectures. The project focuses on the mathematical instability of gradients when scaling network depth, specifically comparing modern and classical optimization techniques.</p><blockquote style="background: rgba(31, 111, 235, 0.1); border-right: 5px solid #1f6feb; padding: 15px; margin: 20px 0; font-style: italic; color: #a5d6ff;"><strong>Note:</strong> This implementation is built <strong>from scratch (Pure NumPy)</strong> to ensure architectural transparency and precise tracking of backpropagation chain rules.</blockquote><div style="display: flex; gap: 20px; flex-wrap: wrap;"><div style="flex: 1; min-width: 300px; background: rgba(22, 27, 34, 0.6); padding: 20px; border-radius: 15px; border: 1px solid #30363d;"><h3 style="color: #3fb950;">🏗 System Architecture</h3><p>We utilize a <strong>13-layer Dense Neural Network (MLP)</strong>. This extreme depth is strategically chosen to observe:</p><ul style="list-style-type: square; color: #8b949e;"><li>Gradient Attenuation</li><li>Weight Magnitude Explosion</li><li>Layer-wise Activation Mean</li></ul></div><div style="flex: 1; min-width: 300px; background: rgba(22, 27, 34, 0.6); padding: 20px; border-radius: 15px; border: 1px solid #30363d;"><h3 style="color: #f85149;">🧪 Experimental Methodology</h3><p>Analyzing the gradient norm $\|\nabla W\|_2$ across:</p><p><strong>⚡ Activation:</strong> Sigmoid (Saturation) vs ReLU (Efficiency)</p><p><strong>🛠 Initialization:</strong> Xavier (Glorot) vs He Initialization</p></div></div><h2 style="color: #58a6ff; border-left: 5px solid #1f6feb; padding-left: 15px; margin-top: 40px;">🧠 Dataset & Reference</h2><p>This analysis uses the <strong>Brain Stroke CT Dataset</strong> from Kaggle to test real-world convergence:</p><div style="text-align: center; margin: 20px 0;"><img src="https://cdn1.imaios.com/i/images/3/3/2/2/472233-1-eng-GB/brain-ct-axial.jpg?q=75&w=1280&s=610e28a70373ba71785af4f421f287de" style="width: 80%; border-radius: 15px; border: 2px solid #30363d; filter: grayscale(30%) contrast(1.2);" /></div><div style="margin: 50px 0; text-align: center; padding: 40px; background: radial-gradient(circle, #161b22 0%, #0d1117 100%); border: 1px dashed #58a6ff; border-radius: 20px;"><h2 style="color: #ffffff; margin-bottom: 25px; font-weight: 300;">Experience the Analytics</h2><a href="https://mlworks1.github.io/webproject.github.io/" target="_blank"style="display: inline-block;padding: 20px 50px;font-size: 24px;font-weight: bold;text-decoration: none;border-radius: 50px;background: linear-gradient(135deg, #1f6feb 0%, #58a6ff 100%);color: #ffffff;box-shadow: 0 0 30px rgba(31, 111, 235, 0.6);transition: all 0.4s ease;text-transform: uppercase;letter-spacing: 2px;">🚀 View Full ML Analysis Dashboard</a><p style="margin-top: 20px; font-size: 16px; color: #8b949e;">Interactive insights, gradient histograms, and loss curves in real-time.</p></div></div>
+<div align="center">
+  
+# 🧠 **DEEP GRADIENT DYNAMICS**
+### VANISHING & EXPLODING GRADIENT ANALYZER
+
+[![Python](https://img.shields.io/badge/Python-3.13+-blue?style=for-the-badge&logo=python)](https://python.org)
+[![NumPy](https://img.shields.io/badge/Implementation-Scratch-orange?style=for-the-badge&logo=numpy)](https://numpy.org)
+[![Research](https://img.shields.io/badge/Status-Research--In--Progress-green?style=for-the-badge)]()
+
+---
+
+## 📝 Introduction
+
+This repository contains an **engineering-grade empirical analysis** of Gradient Flow within deep neural architectures. The project focuses on the mathematical instability of gradients when scaling network depth.
+
+> **Note:** This implementation is built **from scratch (Pure NumPy)** to ensure architectural transparency and precise tracking of backpropagation chain rules.
+
+</div>
+
+## 🏗 System Architecture
+We utilize a **13-layer Dense Neural Network (MLP)** to observe:
+- Gradient Attenuation
+- Weight Magnitude Explosion  
+- Layer-wise Activation Mean
+
+## 🧪 Experimental Methodology
+Analyzing the gradient norm ‖∇W‖₂ across:
+
+| **Parameter** | **Comparison** |
+|--------------|----------------|
+| ⚡ Activation | Sigmoid (Saturation) vs ReLU (Efficiency) |
+| 🛠 Initialization | Xavier (Glorot) vs He |
+
+## 🧠 Dataset
+This analysis uses the **Brain Stroke CT Dataset** from Kaggle to test real-world convergence.
+
+<div align="center">
+
+## 🚀 **View Full ML Analysis Dashboard**
+
+👉 **[Click Here for Interactive Dashboard](https://mlworks1.github.io/webproject.github.io/)**
+
+*Interactive insights, gradient histograms, and loss curves in real-time*
+
+</div>
