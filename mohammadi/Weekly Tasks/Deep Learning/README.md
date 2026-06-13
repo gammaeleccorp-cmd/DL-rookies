@@ -1,0 +1,1 @@
+We aim to cover and implement some parts of the book Deep Learning - Ian Goodfellow.
