@@ -12,3 +12,4 @@ Rahban Fleet API - FastAPI + JWT (by Amin Fadaei)
 
 ## Run
 Inside .APIvenv: uvicorn main:app --reload
+Rahban Fleet mini api - FastAPI + JWT
